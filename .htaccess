@@ -1,0 +1,17 @@
+# .htaccess 
+# ------------
+# the .htaccess file customizes how the server will behave
+# comments in .htaccess begin with a number sign (like this line does!)
+#
+# place this file anywhere in the server root or subfolders
+# the directives declared here will affect all files in the same folder, 
+# as well as files in all subfolders
+#
+# http://www.javascriptkit.com/howto/htaccess.shtml
+
+# error documents
+ErrorDocument 400 /errors/400_bad_request.html
+ErrorDocument 401 /errors/401_authorization_required.html
+ErrorDocument 403 /errors/403_forbidden.html
+ErrorDocument 404 /errors/404_not_found.html
+ErrorDocument 500 /errors/500_internal_server_error.html

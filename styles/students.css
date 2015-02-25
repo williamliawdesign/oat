@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* This is the students css file V1 */
+
+.students article > h1 {
+    margin-bottom: 2rem;
+    padding: .6rem 0;
+    text-align: center;
+    font-size: 2.4rem;
+    background-color: #f3f7ff;
+}
+
+.students article {
+    margin-bottom: 2rem;
+}
+
+.students article div {
+    display: inline-block;
+    width: 44rem;
+    background-color: #d5e8ff;
+    margin: 0 1.4rem 1rem 0;
+    padding: 2rem 0 2rem 3rem;
+    
+}
+
+.students article div:nth-child(odd) {
+    margin-right: 0;
+    background-color: #fff2e4;
+}
+
+.students article div h1 {
+    padding-bottom: .4rem;
+    font-size: 2.4rem;
+    color: #959595;
+}
+
+.students article span {
+    margin-right: .4rem;
+    color: #0054a6;
+}
+
+.students article a {
+    margin-bottom: 0.8rem;
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.students article a:hover,
+.students article a:focus,
+.students article a:active {
+    color: #f69679;
+}

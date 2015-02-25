@@ -1,0 +1,2 @@
+[09-Jan-2015 12:38:38 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/wliaw/public_html/group_project/functions.php on line 521
+[09-Jan-2015 12:44:18 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/wliaw/public_html/group_project/functions.php on line 521

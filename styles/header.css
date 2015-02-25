@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* This is the header css file V1 */
+
+header {
+	width: 96rem;
+	font-size: 1.4rem;
+	padding: 2.6rem 0;
+	margin: 0 auto;
+	/* margin-left: calc(10% + 2rem); */
+}
+
+/* Header H1 title */
+
+header h1:first-child {
+	font-size: 6.4rem;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 1.8rem;
+}
+
+header img {
+	display: none;
+}
+
+/* End of Header H1 title */
+
+/* Outgoing Links: BCIT MYBCIT CONTACT */
+
+.outgoing_links {
+	float: right;
+}
+
+.outgoing_links a {
+	display: inline-block;
+	padding: 1rem 2.2rem;
+	margin: 0 auto;
+	text-decoration: none;
+	background-color: #0054a6;
+	color: #fff;
+}
+
+.outgoing_links a:hover,
+.outgoing_links a:active,
+.outgoing_links a:focus {
+    background-color: #b5b5b5;
+}
+
+.contact .outgoing_links .active  {
+    background-color: #0054a6;
+}
+
+/* End Outgoing Links: BCIT MYBCIT CONTACT */
+
+

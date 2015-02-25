@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* This is the course css file V1 */
+
+.courses article {
+    position: relative;
+}
+
+
+.courses section h1 {
+    font-size: 2.4rem;
+    color: #7da7d9;
+    padding: 0 0 .8rem 3rem;
+    border-bottom: 1rem solid #efefef;
+}
+
+.courses section h2 {
+    position: absolute;
+    font-size: 2.4rem;
+    color: #f69679;
+    right: 3rem;
+    top: 0;
+    clear: none;
+}
+
+.courses article {
+    margin-bottom: 4rem;
+}
+
+.courses article p {
+    margin: 1rem 0;
+    line-height: 1.4;
+}
+
+.courses article span {
+    margin-right: 1rem;
+    color: #0054a6;
+}
+
+.courses article a {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.courses .course_number {
+    color: #7da7d9
+}
+
+.courses article a:hover,
+.courses article a:focus,
+.courses article a:active {
+    color: #f69679;
+}
+

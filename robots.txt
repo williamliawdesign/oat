@@ -1,0 +1,4 @@
+#http://en.wikipedia.org/wiki/Robots_exclusion_standard#Examples
+User-agent: *
+
+Disallow: /errors/

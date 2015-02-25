@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* This is the benefits css file V1 */
+
+.benefits section h1 {
+    font-size: 2.4rem;
+    color: #f69679;
+    padding: 0 0 .8rem 3rem;
+    border-bottom: 1rem solid #efefef;
+}
+
+.benefits article {
+    margin-bottom: 4rem;
+}
+
+.benefits article p {
+    margin: 1rem 0;
+    line-height: 1.4;
+}
+
+.benefits article a {
+    display: inline-block;
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.benefits article span {
+    margin-right: 1rem;
+    color: #0054a6;
+}
+
+.benefits article a:hover,
+.benefits article a:focus,
+.benefits article a:active {
+    color: #f69679;
+}

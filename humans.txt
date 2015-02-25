@@ -1,0 +1,24 @@
+/* TEAM */
+	Name: Nathan Küchler
+	Position: Project Manager
+	Contact: nathankuechler [at] gmail.com
+	GitHub: https://github.com/nathankuechler
+	Twitter: @nathankuechler
+	From: Berne, Switzerland
+
+	Name: Rachel Lee
+	Position: Developer
+
+	Name: Sophie Davari
+	Position: Web Designer
+
+	Name: William Liaw
+	Position: Graphic Designer
+
+/* THANKS */
+		
+
+/* SITE */
+	Last update:2012/02/04
+	Language: English
+	Doctype: HTML5

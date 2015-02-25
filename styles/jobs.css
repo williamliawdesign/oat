@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* This is the jobs css file V1 */
+
+.jobs section h1 {
+    font-size: 2.4rem;
+    color: #f69679;
+    padding: 0 0 .8rem 3rem;
+    border-bottom: 1rem solid #efefef;
+}
+
+.jobs article {
+    margin-bottom: 4rem;
+}
+
+.jobs article p {
+    margin: 1rem 0 1rem 3rem;
+    line-height: 1.4;
+}
+
+.jobs article a {
+    display: inline-block;
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.jobs article a:hover,
+.jobs article a:focus,
+.jobs article a:active {
+    color: #f69679;
+}
+

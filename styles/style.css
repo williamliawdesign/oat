@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('reset.css');
+@import url('navigation.css');
+@import url('header.css');
+@import url('body.css');
+
+/* Body Style */
+@import url('index.css');
+@import url('schedule.css');
+@import url('contact.css');
+@import url('course.css');
+@import url('jobs.css');
+@import url('benefits.css');
+@import url('certifications.css');
+@import url('students.css');
+
+
+/* End Body Style */
+@import url('footer.css');
+
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700,800);
+
+/* Media Queries CSS */
+@import url('mq.css');

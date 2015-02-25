@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/* This is the contact css file V1 */
+
+.contact main #contact > h1, .program_location > h1 {
+    font-size: 2.4rem;
+    color: #7da7d9;
+    padding: 0 0 .8rem 3rem;
+    border-bottom: 1rem solid #efefef;
+}
+
+/* faculty and staff */
+
+.staff {
+    display: inline-block;
+    padding: 2.4rem 2.4rem 2.4rem 10rem;
+    width: 30rem;
+}
+
+.staff > h1 {
+    font-size: 2.4rem;
+    color: #f68e56;
+}
+
+.staff > p, .staff > h1 {
+    margin-bottom: 0.8rem;
+}
+
+.staff a {
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    color: #0054a6;
+    text-decoration: none;
+}
+
+.staff a:first-of-type {
+    color: #000;
+} 
+
+.staff .fa {
+    display: none;
+}
+
+/* End of faculty and staff */
+
+ 
+.program_location article, 
+.program_location h2  {
+   padding-left: 10rem;
+}
+
+.program_location p {
+    line-height: 1.8;
+}
+
+.program_location a {
+    font-size: 1.8rem;
+    color: #f68e56; 
+    text-decoration: none;
+}
+
+.program_location h1{
+    margin: 4rem 0 2rem;
+}

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Navigation Bar Styles */
+
+.nav {
+	margin: 0 auto;
+    text-align: center;
+	padding: 1rem 0;
+	/*font-size: 1.8rem;*/
+	background-color: #f7941d;
+    height: 3rem;
+}
+
+nav {
+	margin: 0 auto;
+	width: 96rem;
+}
+
+nav ul li {
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+nav ul li a {
+	color: #fff;
+	display: block;
+	font-size: 2rem;
+	padding: 0 1rem;
+    line-height: 3rem;
+	text-align: center;
+	text-decoration: none;
+    border-right: 1px solid #fff;
+}
+
+nav ul li:first-child a {
+    border-left: 1px solid #fff;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #0054a6;
+}
+
+nav ul li ul {
+	position: absolute;
+	width: 12.8rem;
+	background-color: rgba(24,24,24,0.8);
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	z-index: 1000;
+}
+
+nav ul li:hover ul {
+	height: auto;
+	opacity: 1;
+	overflow: auto;
+}
+.contact .select_contact,
+.students .select_students, 
+.schedule .select_schedule,
+.jobs .select_jobs,
+.courses .select_courses,
+.certifications .select_certifications,
+.contact .select_contact,
+.benefits .select_benefits,
+.certifications .select_certifications,
+.jobs .select_jobs {
+    font-style: italic;
+    color: #0054a6; 
+}
+
+
+
+
+/* End Navigation Bar Styles */
+
+
+
+
+
+
+
+
+

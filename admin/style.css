@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End CSS Reset */
+
+/* Admin Header Styles */
+
+.admin header {
+	width: 60rem;
+	font-size: 0.875rem;
+	padding: 1.625rem 0;
+	margin: 0 auto;
+}
+
+.admin header h1 {
+	display: inline-block;
+	font-size: 4rem;
+}
+
+.admin header h2 {
+	display: inline-block;
+	font-size: 1.125rem;
+}
+
+.admin header h3 {
+	display: inline-block;
+	font-size: 2.5rem;
+	margin-left: 18rem;
+}
+
+/* End Admin Header Styles */
+
+/* Admin Nav Styles */
+
+.admin nav {
+	background-color: #F7941D;
+	height: 3rem;
+}
+
+.admin nav ul {
+	margin: 0 auto;
+	width: 60rem;
+}
+
+.admin nav ul li a {
+	line-height: 2rem;
+	float: left;
+	margin-right: 1rem;
+	border-right: 1px solid #FFF;
+	color: #FFF;
+	padding-right: 1rem;
+	text-decoration: none;
+	margin-top: 0.5rem;
+	font-size: 1.25rem;
+}
+
+.admin nav ul li:first-child a {
+	border-left: 1px solid #FFF;
+	padding-left: 1rem;
+}
+
+.admin nav ul li a:hover {
+	text-decoration: underline;
+}
+
+/* End Admin Nav Styles */
+
+/* Admin Main Styles */
+
+.admin main {
+	margin: 1.25rem auto 0;
+	width: 60rem;
+}
+
+.admin main h1 {
+	font-size: 1.75rem;
+	margin: 0.5rem 0;
+}
+
+/* End Admin Main Styles */
+
+/* Admin Index Main Styles */
+
+.admin main.index section article {
+	border: 0.6rem solid #7DA7D9;
+	border-radius: 1.5rem;
+	color: #F8B163;
+	float: left;
+	margin: 1rem 7.25rem 3.5rem;
+	padding: 1rem 1rem;
+	text-align: center;
+	width: 12rem;
+}
+
+.admin main.index section a {
+	text-decoration: none;
+}
+
+.admin main.index section article span {
+	font-size: 7rem;
+}
+
+.admin main.index section article h1 {
+	color: #000;
+	font-size: 2rem;
+}
+
+.admin main.index section a:nth-child(3) article,
+.admin main.index section a:nth-child(4) article {
+	border-color: #F8B163;
+	color: #7DA7D9;
+}
+
+/* End Admin Index Main Styles */
+
+/* Admin Overview Main Styles */
+
+.admin main section table {
+	width: 60rem;
+}
+
+.admin main section table tr {
+	background-color: #FFF;
+	font-size: 1rem;
+}
+
+.admin main section table tr:nth-child(odd) {
+	background-color: #EDEDED;
+}
+
+.admin main section table tr th {
+	background-color: #7DA7D9;
+	color: #FFF;
+	font-size: 1.25rem;
+	padding: 0.75rem;
+}
+
+.admin main section table tr td {
+	padding: 0.5rem 0.25rem;
+}
+
+.admin main section table tr td a {
+	color: black;
+	display: block;
+	text-align: center;
+}
+
+.admin main section table tr td a:hover,
+.admin main section table tr td a:focus {
+	color: #F8B163;
+}
+
+.admin main section > a {
+	display: block;
+	margin: 1rem 0;
+	text-align: right;
+}
+
+/* End Admin Overview Main Styles */
+
+/* Admin Form Styles */
+
+.admin main form {
+	border: 0.5rem solid #7DA7D9;
+	border-radius: 2rem;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 2.5rem;
+	width: 28rem;
+}
+
+.admin main form label {
+	display: inline-block;
+	font-size: 1.25rem;
+	margin-bottom: 0.5rem;
+	width: 8rem;
+}
+
+.admin main form input {
+	font-size: 1rem;
+}
+
+.admin main form input[type=submit] {
+	float: right;
+}
+
+/* End Admin Form Styles */
+
+/* Admin Messages */
+
+.admin .error {
+	background-color: #FFC;
+	border: 0.125rem solid #F33;
+	border-radius: 0.5rem;
+	font-size: 1.125rem;
+	margin: 0 auto 0.5rem;
+	padding: 0.5rem;
+	width: 32rem;
+}
+
+.admin .errors {
+	background-color: #FFC;
+	border: 0.125rem solid #F33;
+	border-radius: 0.5rem;
+	font-size: 1.125rem;
+	margin: 0 auto 0.5rem;
+	padding: 0.5rem;
+	width: 32rem;
+}
+
+.admin .errors ul {
+	list-style-type: circle;
+	margin-left: 2rem;
+}
+
+.admin .errors ul li {
+	line-height: 1.25rem;
+}
+
+.admin .message {
+	background-color: #FFC;
+	border: 0.125rem solid #3F3;
+	border-radius: 0.5rem;
+	font-size: 1.125rem;
+	margin: 0 auto 0.5rem;
+	padding: 0.5rem;
+	width: 32rem;
+}
+
+/* End Admin Messages */
